@@ -19,47 +19,47 @@ const Footer = () => {
           corporis.
         </p>
         <div className=" flex justify-between md:w-[75%] my-6">
-          <FaDribbbleSquare size={30} />
-          <FaFacebookSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
+          <FaDribbbleSquare size={30}  className='hover:scale-125 duration-600'/>
+          <FaFacebookSquare size={30}  className='hover:scale-125 duration-600'/>
+          <FaGithubSquare size={30}  className='hover:scale-125 duration-600'/>
+          <FaInstagram size={30}  className='hover:scale-125 duration-600'/>
+          <FaTwitterSquare size={30} className='hover:scale-125 duration-600' />
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
         <div>
             <h6 className="font-medium text-gray-400">Solutions</h6>
           <ul>
-            <li className="py-2 text-sm">Analitycs</li>
-            <li className="py-2 text-sm">Marketing</li>
-            <li className="py-2 text-sm">Commerce</li>
-            <li className="py-2 text-sm">Insights</li>           
+            <li className="py-2 text-sm hover:scale-110 duration-600">Analitycs</li>
+            <li className="py-2 text-sm hover:scale-110 duration-600">Marketing</li>
+            <li className="py-2 text-sm hover:scale-110 duration-600">Commerce</li>
+            <li className="py-2 text-sm hover:scale-110 duration-600">Insights</li>           
           </ul>
         </div>
         <div>
     <h6 className="font-medium text-gray-400">Support</h6>
   <ul>
-    <li className="py-2 text-sm">Pricing</li>
-    <li className="py-2 text-sm">Documentation</li>
-    <li className="py-2 text-sm">Guides</li>
-    <li className="py-2 text-sm">Api Status</li>           
+    <li className="py-2 text-sm hover:scale-110 duration-600">Pricing</li>
+    <li className="py-2 text-sm hover:scale-110 duration-600">Documentation</li>
+    <li className="py-2 text-sm hover:scale-110 duration-600">Guides</li>
+    <li className="py-2 text-sm hover:scale-110 duration-600">Api Status</li>           
   </ul>
 </div>
 <div>
-    <h6 className="font-medium text-gray-400">Company</h6>
+    <h6 className="font-medium text-gray-400 ">Company</h6>
   <ul>
-    <li className="py-2 text-sm">About</li>
-    <li className="py-2 text-sm">Blog</li>
-    <li className="py-2 text-sm">Jobs</li>
-    <li className="py-2 text-sm">Careers</li>           
+    <li className="py-2 text-sm hover:scale-110 duration-600">About</li>
+    <li className="py-2 text-sm hover:scale-110 duration-600">Blog</li>
+    <li className="py-2 text-sm hover:scale-110 duration-600">Jobs</li>
+    <li className="py-2 text-sm hover:scale-110 duration-600">Careers</li>           
   </ul>
 </div>
 <div>
-    <h6 className="font-medium text-gray-400">Legal</h6>
+    <h6 className="font-medium text-gray-400 ">Legal</h6>
   <ul>
-    <li className="py-2 text-sm">Claim</li>
-    <li className="py-2 text-sm">Policy</li>
-    <li className="py-2 text-sm">Terms</li>             
+    <li className="py-2 text-sm hover:scale-110 duration-600">Claim</li>
+    <li className="py-2 text-sm hover:scale-110 duration-600">Policy</li>
+    <li className="py-2 text-sm hover:scale-110 duration-600">Terms</li>             
   </ul>
 </div>
       </div>
