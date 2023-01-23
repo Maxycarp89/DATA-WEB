@@ -3,7 +3,7 @@ import Analytics from "./Components/Analytics";
 import Hero from "./Components/Hero";
 import NavBar from "./Components/NavBar";
 import Newsletter from "./Components/Newsletter";
-
+import Cards from "./Components/Cards";
 
 function App() {
   return <div>
@@ -11,6 +11,7 @@ function App() {
     <Hero />
     <Analytics />
     <Newsletter />
+    <Cards />
   </div>;
 }
 
