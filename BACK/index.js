@@ -11,14 +11,14 @@ app.use(cookieParser());
 const dotenv = require("dotenv");
 dotenv.config();
 
- //const routes = require("./routes");
+const routes = require("./routes");
 const path = require("path");
 
 app.enable("trust proxy");
 
 app.use(express.static(path.join(__dirname, "../web")));
 
-//app.use("/api/v1", routes);
+app.use("/api/v1", routes);
 app.use("/", function (req, res) {
   console.log(
     path.join(__dirname, "../web", "index.html"),
