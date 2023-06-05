@@ -1,11 +1,13 @@
 const express = require('express')
 const router = express.Router()
+const userRoutes = require('./businessRoutes')
+const sessionRoutes = require('./sessionRoutes')
+const serviceRoutes = require('./serviceRoutes')
+const dasboardRoutes = require('./dashboardRoutes')
 
-const userRoutes = require('./clientRoutes')
+router.use('/', userRoutes)
+router.use('/', sessionRoutes)
+router.use('/', serviceRoutes)
+router.use('/', dasboardRoutes)
 
-
-router.use('/',userRoutes)
-
-
-
-module.exports = router;
+module.exports = router

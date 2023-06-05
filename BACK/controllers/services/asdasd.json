@@ -1,0 +1,37 @@
+{
+  "CardCode": "ZC040",
+  "Comments": "Probando transferencia de busqueda por nombre",
+  "JournalMemo": "Probando transferencia de busqueda por nombre",
+  "PriceList": 1,
+  "FromWarehouse": "010",
+  "ToWarehouse": "555",
+  "BPLID": 66,
+  "BPLName": "010",
+  "PointOfIssueCode": "0615",
+  "Letter": "fLetterR",
+  "U_Chofer": "40089026",
+  "U_Camion": "AC133DO",
+  "Series": 27,
+  "StockTransferLines": [
+    {
+      "ItemCode": "M0001200850",
+      "Quantity": 1,
+      "ProjectCode": "Motos",
+      "WarehouseCode": "555",
+      "FromWarehouseCode": "010",
+      "SerialNumbers": [
+        { "InternalSerialNumber": "010NI000113846", "Quantity": 1 }
+      ]
+    },
+    {
+      "ItemCode": "M0000700252",
+      "Quantity": 1,
+      "ProjectCode": "Motos",
+      "WarehouseCode": "555",
+      "FromWarehouseCode": "010",
+      "SerialNumbers": [
+        { "InternalSerialNumber": "010NI000114643", "Quantity": 1 }
+      ]
+    }
+  ]
+}
