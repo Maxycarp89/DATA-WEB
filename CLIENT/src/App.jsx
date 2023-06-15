@@ -39,17 +39,7 @@ function App() {
   return (
     <div className="App">
       <Hero />
-      <input
-        value={input}
-        placeholder={" Ingresa tu DNI"}
-        onChange={onChangeInput}
-        />
-         <Keyboard
-        keyboardRef={r => (keyboard.current = r)}
-        layoutName={layout}
-        onChange={onChange}
-        onKeyPress={onKeyPress}
-        />
+      
       <Cards />
     </div>
   );
