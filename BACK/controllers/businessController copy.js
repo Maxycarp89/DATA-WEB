@@ -97,6 +97,10 @@ exports.PatchBusinessPartnersCel = async (req, res) => {
 
 
 
+
+/* Este código exporta una función llamada `PostBusinessPartners` que maneja una solicitud POST para
+crear un nuevo socio comercial en una API externa. La función recibe un objeto de solicitud (`req`)
+y un objeto de respuesta (`res`) como parámetros. */
 exports.PostBusinessPartners = async (req, res) => {
 
     const cookies = req.header('Authorization')
