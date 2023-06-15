@@ -11,14 +11,14 @@
   "dependencies": {
     "@headlessui/react": "^1.7.3",
     "@headlessui/tailwindcss": "^0.1.1",
-    "@szhsin/react-menu": "^3.2.0",
     "@reduxjs/toolkit": "^1.9.5",
+    "@szhsin/react-menu": "^3.2.0",
     "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-redux": "^8.0.7",
-    "react-simple-keyboard": "^3.6.10"
+    "react-router-dom": "^6.13.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

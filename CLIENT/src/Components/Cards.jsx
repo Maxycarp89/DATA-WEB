@@ -59,7 +59,7 @@ const Cards = () => {
     //   </div>
 
     // </div>
-<div className="px-4 py-8 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8">
+<div className=" min-h-screen flex items-center justify-center px-4 py-8 bg-white grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8">
   <label className="relative group">
     <input
       type="radio"
