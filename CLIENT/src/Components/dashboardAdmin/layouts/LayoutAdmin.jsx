@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Sidebar from "../components/Sidebar";
-import Header from "../components/Header";
+import Sidebar from "../elements/Sidebar";
+import Header from "../elements/Header";
 
 const LayoutAdmin = () => {
   return (
