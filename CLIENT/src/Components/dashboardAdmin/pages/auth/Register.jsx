@@ -17,19 +17,13 @@ const Register = () => {
           Crear <span className="text-primary">cuenta</span>
         </h1>
         <form className="mb-8">
-          <button className="flex items-center justify-center py-3 px-4 gap-4 bg-secondary-900 w-full rounded-full mb-8 text-gray-100">
-            <img
-              src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png"
-              className="w-4 h-4"
-            />
-            Registrate con google
-          </button>
+         
           <div className="relative mb-4">
             <RiUserLine className="absolute top-1/2 -translate-y-1/2 left-2 text-primary" />
             <input
               type="text"
               className="py-3 pl-8 pr-4 bg-secondary-900 w-full outline-none rounded-lg"
-              placeholder="Nombre(s)"
+              placeholder="Nombre(s) "
             />
           </div>
           <div className="relative mb-4">
